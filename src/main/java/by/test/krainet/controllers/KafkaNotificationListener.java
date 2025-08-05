@@ -1,9 +1,9 @@
-package by.test.krainetnot.controllers;
+package by.test.krainet.controllers;
 
 
-import by.test.krainetnot.model.Letter;
-import by.test.krainetnot.service.AdminService;
-import by.test.krainetnot.service.NotificationService;
+import by.test.krainet.dto.Letter;
+import by.test.krainet.service.AdminService;
+import by.test.krainet.service.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
@@ -22,7 +22,7 @@ public class KafkaNotificationListener {
         this.adminService = adminService;
     }
 
-    @KafkaListener(topics = "user-events", groupId = "notification-group")
+    @KafkaListener(topics = "notification", groupId = "notification-group")
     public void handleUserEvent(Letter event) {
         List<String> adminEmails = adminService.getAdminEmails();
 

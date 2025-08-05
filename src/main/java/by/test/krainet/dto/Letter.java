@@ -1,4 +1,4 @@
-package by.test.krainetnot.model;
+package by.test.krainet.dto;
 
 import lombok.Data;
 

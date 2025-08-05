@@ -1,4 +1,4 @@
-package by.test.krainetnot.model;
+package by.test.krainet.dto;
 
 import jakarta.persistence.*;
 import lombok.Data;

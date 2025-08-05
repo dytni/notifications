@@ -1,9 +1,9 @@
-package by.test.krainetnot.repository;
+package by.test.krainet.repository;
 
-import by.test.krainetnot.model.Roles;
+import by.test.krainet.dto.Roles;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import by.test.krainetnot.model.User;
+import by.test.krainet.dto.User;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;

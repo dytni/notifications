@@ -1,4 +1,4 @@
-package by.test.krainetnot.service;
+package by.test.krainet.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;

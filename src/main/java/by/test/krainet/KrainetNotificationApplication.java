@@ -1,4 +1,4 @@
-package by.test.krainetnot;
+package by.test.krainet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

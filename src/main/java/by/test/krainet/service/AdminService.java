@@ -1,7 +1,7 @@
-package by.test.krainetnot.service;
+package by.test.krainet.service;
 
-import by.test.krainetnot.model.Roles;
-import by.test.krainetnot.repository.AdminRepository;
+import by.test.krainet.dto.Roles;
+import by.test.krainet.repository.AdminRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
